@@ -1,3 +1,6 @@
-body{
-	background-color: blue;
+div {
+	background-color:#B4C6A6;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
 }
