@@ -4,8 +4,12 @@
 	<meta charset="UTF-8">
 	<title>CSS - My Site</title>
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" href="favicon.ico">
 </head>
 <body>
-	
+	<div>
+		<h1>I'm Jeremiah</h1>
+		<p>A human being.</p>
+	</div>
 </body>
 </html>
