@@ -7,9 +7,11 @@
 	<link rel="icon" href="favicon.ico">
 </head>
 <body>
-	<div>
+	<div class="">
 		<h1>I'm Jeremiah</h1>
 		<p>A human being.</p>
 	</div>
+	
+	
 </body>
 </html>
