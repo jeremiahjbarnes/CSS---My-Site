@@ -1,7 +1,47 @@
-*, html{
+/**, html{
 	margin:0px;
 }
+*/
+body{
+	text-align:center;
+	margin:0;
+	font-family:helvetica.verdana,sans-serif;
+}
 
-div {
+h1{
+	margin-top:0;
+}
+
+.topdiv {
 	background-color:#B4C6A6;
+	position:relative;
+	padding-top:100px;
+}
+
+.bottomdiv{
+	width:200px;
+	height:200px;
+	background-color:blue;
+}
+
+.middlediv{
+	width:200px;
+	height:200px;
+	background-color:red;
+}
+
+.pro{
+	text-decoration:underline;
+}
+
+.bottomcloud{
+	position:absolute;	
+	left:300px;
+	bottom:300px;
+}
+
+.topcloud{
+	position:absolute;
+	right:300px;
+	top:50px;
 }
