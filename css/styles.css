@@ -5,7 +5,7 @@
 body{
 	text-align:center;
 	margin:0;
-	font-family:helvetica.verdana,sans-serif;
+	font-family:nunito,helvetica,verdana,sans-serif;
 }
 
 h1{
@@ -19,15 +19,11 @@ h1{
 }
 
 .bottomdiv{
-	width:200px;
-	height:200px;
-	background-color:blue;
+	background-color:#FFC286;
 }
 
 .middlediv{
-	width:200px;
-	height:200px;
-	background-color:red;
+	background-color:#FFF1AF;
 }
 
 .pro{
@@ -44,4 +40,13 @@ h1{
 	position:absolute;
 	right:300px;
 	top:50px;
+}
+
+.attribution{
+	font-size:12px;
+}
+
+.icon {
+	 width:256px; 
+	 height:256px;
 }
