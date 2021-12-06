@@ -5,13 +5,54 @@
 	<title>CSS - My Site</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="icon" href="favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div class="">
+	<div class="topdiv">
+		<img class="topcloud" src="images/cloud.png" alt="cloud"></im>
 		<h1>I'm Jeremiah</h1>
-		<p>A human being.</p>
+		<h2>a <span class="pro">human</span> being.</h2>
+		<img class="bottomcloud" src="images/cloud.png" alt="cloud">
+		<img src="images/mountain.png" alt="mountain">
 	</div>
-	
+	<div class="middlediv">
+		<div class="profile">
+			<img class="icon" src="https://media.giphy.com/media/27bJSwVTOJH2XemeeT/giphy.gif" alt="waving corgi">
+			<h2>welcome</h2>
+			<p>"I said then, and I say now, that while there is a lower class, I am in it, and while there is a criminal element I am of it, and while there is a soul in prison, I am not free" - Eugene V. Debs</p>
+		</div>
+		<hr>
+		<div class="skills">
+			<h2>skills</h2>
+			<div class="skill-row">
+				<img align=center class="icon" src="images/database-storage.png" alt="server">
+				<div class="attribution">Icons made by <a href="https://www.flaticon.com/authors/phatplus" title="phatplus">phatplus</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+				<h3>Full Stack Development</h3>
+				<p>I have extensive experience in every aspect of IT operations from graphic design, to backend administration, to QA reporting.</p>
+			</div>
+			<div class="skill-row">
+				<img class="icon" src="images/woodwork.png" alt="firewood chop">
+				<div class="attribution">Icons made by <a href="https://www.flaticon.com/authors/agung-rama" title="Agung Rama">Agung Rama</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+				<h3>Design</h3>
+				<p>See my woodworking page for examples of physical design and the rest of the website as my portfolio for frontend design.</p>
+			</div>
+		</div>
+		<hr>
+		<div class="contact-me">
+			<h2>Get In Touch</h2>
+			<h3>jeremiahjbarnes06@email</h3>
+			<p>859-229-8331</p>
+			<a class="btn" href="mailto:jeremiahjbarnes06@email.com">CONTACT ME</a>
+		</div>
+	</div>
+	<div class="bottomdiv">
+	  <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+	  <a class="footer-link" href="https://twitter.com/">Twitter</a>
+	  <a class="footer-link" href="https://jeremiahjbarnes.github.io/CSS---My-Site/">Website</a>
+  <p>© Jeremiah Barnes.</p>
+	</div>
 	
 </body>
 </html>
