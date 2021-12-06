@@ -19,7 +19,7 @@
 	</div>
 	<div class="middlediv">
 		<div class="profile">
-			<img class="icon" src="https://media.giphy.com/media/27bJSwVTOJH2XemeeT/giphy.gif" alt="waving corgi">
+			<img src="https://media.giphy.com/media/27bJSwVTOJH2XemeeT/giphy.gif" alt="waving corgi" style="width:25%">
 			<h2>welcome</h2>
 			<p>"I said then, and I say now, that while there is a lower class, I am in it, and while there is a criminal element I am of it, and while there is a soul in prison, I am not free" - Eugene V. Debs</p>
 		</div>
@@ -27,14 +27,19 @@
 		<div class="skills">
 			<h2>skills</h2>
 			<div class="skill-row">
-				<img align=center class="icon" src="images/database-storage.png" alt="server">
-				<div class="attribution">Icons made by <a href="https://www.flaticon.com/authors/phatplus" title="phatplus">phatplus</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+				<figure class="server-pic">
+					<img class="icon" src="images/database-storage.png" alt="server" />
+					<figcaption class="attribution">Icons made by <a href="https://www.flaticon.com/authors/phatplus" title="phatplus">phatplus</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></figcaption>
+				</figure>
 				<h3>Full Stack Development</h3>
 				<p>I have extensive experience in every aspect of IT operations from graphic design, to backend administration, to QA reporting.</p>
 			</div>
 			<div class="skill-row">
-				<img class="icon" src="images/woodwork.png" alt="firewood chop">
-				<div class="attribution">Icons made by <a href="https://www.flaticon.com/authors/agung-rama" title="Agung Rama">Agung Rama</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+				<figure class="wood-pic">
+					<img class="icon" src="images/woodwork.png" alt="firewood chop">
+					<figcaption class="attribution">Icons made by <a href="https://www.flaticon.com/authors/agung-rama" title="Agung Rama">Agung Rama</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></ficaption>
+				</figure>
+			
 				<h3>Design</h3>
 				<p>See my woodworking page for examples of physical design and the rest of the website as my portfolio for frontend design.</p>
 			</div>
